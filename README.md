@@ -21,7 +21,7 @@ To get started with the project, follow these steps:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/school_project.git
+    git clone https://github.com/Dinil-Lamahewa/Django_project.git
     ```
 
 2. **Create a virtual environment:**
