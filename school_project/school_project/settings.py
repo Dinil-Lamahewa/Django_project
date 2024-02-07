@@ -15,7 +15,7 @@ from pipes import Template
 from django import template
 from django.contrib import admin
 
-from school_project import school
+from school_project import school, school_project
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -64,7 +64,7 @@ ROOT_URLCONF = 'school_project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [../school_project/school/Template],
+        'DIRS': [school_project/school/Template],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
