@@ -1,6 +1,5 @@
-# School Project - Django School Management System
+#  Django School CVS Reader
 
-This is a simple school management system built using Django. The project includes models for schools, classes, assessment areas, students, answers, Sydney participants, awards, correct answer percentage per class, answer summaries, correct answers, subjects, categories, and year level names.
 
 ## Technologies Used
 - **Python 3.9**
