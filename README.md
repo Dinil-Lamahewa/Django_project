@@ -1,4 +1,4 @@
-#  Django School CVS Reader
+#  Django CVS Reader
 
 
 ## Technologies Used
