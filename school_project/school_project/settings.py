@@ -11,7 +11,11 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 import os
 from pathlib import Path
+from pipes import Template
+from django import template
 from django.contrib import admin
+
+from school_project import school
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -38,7 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'school.apps.SchoolConfig',  # Keep only one entry for 'school.SchoolConfig'
+    'school',  # Keep only one entry for 'school.SchoolConfig'
 ]
 
 
@@ -60,7 +64,7 @@ ROOT_URLCONF = 'school_project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [../school_project/school/Template],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
